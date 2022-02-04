@@ -1,0 +1,28 @@
+{
+  "name": "fullstack-open-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node_modules/.bin/nodemon index.js",
+    "test": "echo \"Error: no tests specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alikhano/fullstack-open-backend.git"
+  },
+  "author": "Anastasia Likhanova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alikhano/fullstack-open-backend/issues"
+  },
+  "homepage": "https://github.com/Alikhano/fullstack-open-backend#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
