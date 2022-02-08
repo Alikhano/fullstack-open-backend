@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "node_modules/.bin/nodemon index.js",
-    "test": "echo \"Error: no tests specified\" && exit 1"
+    "test": "echo \"Error: no tests specified\" && exit 1",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "eslint": "^8.8.0",
     "nodemon": "^2.0.15"
   }
 }
